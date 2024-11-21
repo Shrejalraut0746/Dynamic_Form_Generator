@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import JsonEditor from './components/JsonEditor';
+import FormGenerator from './components/FormGenerator';
 
-function App() {
+const App: React.FC = () => {
+  const [jsonSchema, setJsonSchema] = useState('');
+
+  const handleJsonChange = (json: string) => {
+    setJsonSchema(json);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex flex-col md:flex-row h-screen">
+      <div className="w-full md:w-1/2 p-4 border-r">
+        <h2 className="text-lg font-bold mb-2">JSON Editor</h2>
+        <JsonEditor onChange={handleJsonChange} />
+      </div>
+      <div className="w-full md:w-1/2 p-4">
+        <h2 className="text-lg font-bold mb-2">Form Preview</h2>
+        <FormGenerator schema={jsonSchema} />
+      </div>
     </div>
   );
-}
+};
 
 export default App;
