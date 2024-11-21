@@ -1,46 +1,36 @@
-# Getting Started with Create React App
+# Dynamic Contact Form Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Background
+This project is a dynamic contact form generator that allows you to create a styled, functional contact form from a JSON schema. The application displays the form along with a JSON editor side by side, allowing real-time editing of the JSON schema and generating the corresponding form on the right side. The form supports various field types with validation and submission functionality.
 
-## Available Scripts
+## Features
+- **JSON Editor**: A real-time JSON editor for modifying the schema.
+- **Real-time Form Generation**: A functional contact form is generated dynamically based on the provided JSON schema.
+- **Responsive Design**: The form layout adjusts for mobile and desktop views.
+- **Error Handling**: Displays validation errors when the form is filled out incorrectly.
+- **Form Submission**: Data is logged to the console upon submission.
 
-In the project directory, you can run:
+## Technical Stack
+- **Frontend**: React 18+, TypeScript, Tailwind CSS
+- **Form Management**: React Hook Form
+- **Testing**: Jest, Playwright
+- **Deployment**: Vercel/Netlify (optional)
 
-### `npm start`
+## Setup Instructions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prerequisites
+Ensure that you have the following installed on your local machine:
+- Node.js (>=18.x)
+- npm or yarn (recommended)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Steps to Run Locally
 
-### `npm test`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/contact-form-generator.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Example JSON Schema for the Contact Form with Image Upload
+json
+Copy code
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Screenshot 2024-11-21 202427](https://github.com/user-attachments/assets/70dcc653-0012-4c28-90c8-8d8a1cda3a9c)
